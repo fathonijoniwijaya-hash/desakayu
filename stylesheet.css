@@ -1554,7 +1554,7 @@ o @keyframes bannar_come {
 }
 
 .message {
-	margin-top: 80px;
+	margin-top: 20px;
 	display: none;
 	text-align: center;
 	position: relative;
@@ -1648,35 +1648,34 @@ o @keyframes bannar_come {
 		text-shadow: 1.5px 1.5px 1.5px #FFF;
 	}
 	.message p {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.moment-container {
-		top: 62%;
-		max-width: 250px;
+		position: relative;
+		margin: 15px auto 0 auto;
+		max-width: 180px;
 	}
 	#moment_img {
-		max-height: 28vh;
+		max-height: 22vh;
 		border: 5px solid #fff;
 	}
 }
 
 /* Container for Moment Photo Pop-up */
 .moment-container {
-	position: fixed;
-	top: 62%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	position: relative;
+	margin: 25px auto 0 auto;
 	z-index: 95;
 	display: none;
 	width: 90%;
-	max-width: 300px;
+	max-width: 250px;
 	text-align: center;
 }
 
 #moment_img {
 	width: 100%;
 	height: auto;
-	max-height: 35vh;
+	max-height: 30vh;
 	object-fit: contain;
 	border-radius: 12px;
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
