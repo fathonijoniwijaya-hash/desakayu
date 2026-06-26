@@ -1554,19 +1554,27 @@ o @keyframes bannar_come {
 }
 
 .message {
-	margin-top: 270px;
+	margin-top: 80px;
 	display: none;
+	text-align: center;
+	position: relative;
+	z-index: 100;
 }
 
 .message p {
 	font-family: 'Signika', sans-serif;
-	font-size: 30px;
+	font-size: 26px;
 	text-transform: uppercase;
 	color: #C4515C;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
 	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1.4;
+	max-width: 90%;
 }
+
 
 .btn-primary {
 	border-color: #466baf;
@@ -1639,28 +1647,39 @@ o @keyframes bannar_come {
 		margin-top: 6px;
 		text-shadow: 1.5px 1.5px 1.5px #FFF;
 	}
+	.message p {
+		font-size: 20px;
+	}
+	.moment-container {
+		top: 62%;
+		max-width: 250px;
+	}
+	#moment_img {
+		max-height: 28vh;
+		border: 5px solid #fff;
+	}
 }
 
 /* Container for Moment Photo Pop-up */
 .moment-container {
 	position: fixed;
-	top: 55%;
+	top: 62%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 95;
 	display: none;
 	width: 90%;
-	max-width: 320px;
+	max-width: 300px;
 	text-align: center;
 }
 
 #moment_img {
 	width: 100%;
 	height: auto;
-	max-height: 40vh;
+	max-height: 35vh;
 	object-fit: contain;
 	border-radius: 12px;
-	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 	border: 8px solid #fff;
 	background-color: #fff;
 	transition: opacity 0.5s ease-in-out;
